@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="logo.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="fifth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="video-container">
+        <video autoplay muted loop id="myVideo"><source src="background vedio 1.mp4" type="video/mp4">
+        </video>
+    <div class="container">
+        <form>
+            <h1>Give your Feedback</h1>
+            <div class="container1">
+                <div class="FEEDBACK" > 
+                     <div class="emojis" >
+                            <div  id="emoji">
+                               <img src="poor.png" alt="" >
+                               <img src="bad.png" alt="">
+                               <img src="okay.png" alt="">
+                               <img src="good.png" alt="">
+                               <img src="excellent.png" alt="">
+                           </div>
+                    </div>
+                    <div class="ratting">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                         <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+              </div>
+            <div class="id">
+            <input type="text" placeholder="Full Name">
+            <i class='bx bxs-user' ></i>
+        </div>
+        <div class="id">
+            <input type="email" placeholder="Email Address">
+            <i class='bx bx-envelope' ></i>
+        </div>
+        <textarea cols="15" rows="5" placeholder="Enter your opinions here..."></textarea>
+        <button>Submit</button>
+        </form>
+    </div>
+    </section>
+ <script>
+    var star = document.getElementsByClassName("fa");
+    var h1 = document.getElementById("emoji");
+
+    star[0].onclick = function(){
+        star[0].style.color = "#ffd93b"
+        star[1].style.color="#e4e4e4"
+        star[2].style.color="#e4e4e4"
+        star[3].style.color="#e4e4e4"
+        star[4].style.color="#e4e4e4"
+        emoji.style.transform ="translatex(0)";
+    }
+
+    star[1].onclick = function(){
+        star[0].style.color = "#ffd93b"
+        star[1].style.color="#ffd939"
+        star[2].style.color="#e4e4e4"
+        star[3].style.color="#e4e4e4"
+        star[4].style.color="#e4e4e4"
+        emoji.style.transform ="translatex(-117px)";
+    }
+
+    star[2].onclick = function(){
+        star[0].style.color = "#ffd93b"
+        star[1].style.color="#ffd939"
+        star[2].style.color="#ffd939"
+        star[3].style.color="#e4e4e4"
+        star[4].style.color="#e4e4e4"
+        emoji.style.transform ="translatex(-227px)";
+    }
+
+    star[3].onclick = function(){
+        star[0].style.color = "#ffd93b"
+        star[1].style.color="#ffd939"
+        star[2].style.color="#ffd939"
+        star[3].style.color="#ffd939"
+        star[4].style.color="#e4e4e4"
+        emoji.style.transform ="translatex(-337px)";
+    }
+
+    star[4].onclick = function(){
+        star[0].style.color = "#ffd93b"
+        star[1].style.color="#ffd939"
+        star[2].style.color="#ffd939"
+        star[3].style.color="#ffd939"
+        star[4].style.color="#ffd939"
+        emoji.style.transform ="translatex(-447px)";
+    }
+  </script>
+</body>
+</html>
+
