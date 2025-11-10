@@ -1,0 +1,32 @@
+body{
+    background-image: url(fourthBackground.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 15em;
+    height: 7em;
+    margin-top: 1em;
+    margin-left: 8em;
+}
+
+
+.about{
+    max-width: 905px;
+    margin-top: 2em;
+}
+
+p{
+    font-size: 24px;
+    margin-left: 4em;
+
+}
+
+h4{
+    font-size: 20px;
+    margin-left: 5em;
+
+}
+
+
